@@ -18,6 +18,7 @@
         <p>About</p>
         <p>sign up</p>
         <p>login</p>
+        <%= link_to "log out", destroy_user_session_path, method: :delete %>
       </nav>
     </header>
     <%= yield %>
